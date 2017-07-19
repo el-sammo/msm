@@ -2047,24 +2047,20 @@ td {
 	text-align: right;
 	font-size: 14px;
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-	color: #666666;
+	color: #FF9B00;
 	background-color: rgba(0, 0, 0, .2);
 }
 
 #msm-quicklinks {
 	height: 100px;
 	width: 100%;
-	margin-left: 15%;
-	margin-right: 15%;
-	font-size: 14px;
-	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 	color: #666666;
+	text-align: right;
 	background-color: rgba(0, 0, 0, 0);
 }
 
-#msm-quicklinks {
-	margin-left: 35px;
-	margin-right: 0px;
+.msm-ql {
+	margin-top: 32px;
 	font-size: 16px;
 	font-family: Raleway, sans-serif;
 	cursor: pointer;
@@ -2205,11 +2201,21 @@ table .fms-action {
 	float: left;
 }
 
+.clickable {
+	cursor: pointer;
+}
+
 .headLogo {
 	top: 20px;
 	height: 60px;
 	width: 395px;
-	background-image: url("images/logo.jpg");
+	background-image: url("images/logo.png");
+	position: relative;
+}
+
+#logo {
+	top: 20px;
+	text-align: left;
 	position: relative;
 }
 

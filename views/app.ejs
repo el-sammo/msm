@@ -9,61 +9,81 @@
 	ng-cloak 
 	id="msm-main-container" 
 >
-	<div id="msm-header">
-		<div id="msm-inout">
-			<div 
-				class="inoutSelected"
-				ng-click="signUp()"
-			>
-				CREATE ACCOUNT
-			</div>
-			<div 
-				class="inoutLink"
-				ng-click="support()"
-			>
-				SUPPORT
-			</div>
-			<div 
-				class="inoutSelected"
-				ng-click="logIn()"
-			>
-				LOGIN
+	<div 
+		id="msm-header"
+	>
+		<div 
+			id="msm-inout"
+		>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="row">
+						<div class="col-md-6">
+							&nbsp;
+						</div>
+						<div 
+							class="col-md-2 col-md-offset-2 clickable"
+							ng-click="signUp()"
+						>
+							CREATE ACCOUNT
+						</div>
+						<div 
+							class="col-md-1 clickable"
+							ng-click="support()"
+						>
+							SUPPORT
+						</div>
+						<div 
+							class="col-md-1 clickable"
+							ng-click="logIn()"
+						>
+							LOGIN
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div id="msm-quicklinks">
-			<div 
-				class="headLogo"
-			>
-			</div>
-			<div 
-				class="msm-quicklink"
-				ng-click="home()"
-			>
-				Home
-			</div>
-			<div 
-				class="msm-quicklink"
-				ng-click="products()"
-			>
-				Products
-			</div>
-			<div 
-				class="msm-quicklink"
-				ng-click="installation()"
-			>
-				Installation
-			</div>
-			<div 
-				class="msm-quicklink"
-				ng-click="pricing()"
-			>
-				Pricing
-			</div>
-			<div 
-				class="msm-quicklink"
-				ng-click="contact()"
-			>
-				Contact
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="row">
+						<div class="col-md-6">
+							<div id="logo">
+								<img src="/images/logo.png">
+							</div>
+						</div>
+						<div 
+							class="col-md-1 col-md-offset-1 msm-ql"
+							ng-click="home()"
+						>
+							Home
+						</div>
+						<div 
+							class="col-md-1 msm-ql"
+							ng-click="products()"
+						>
+							Products
+						</div>
+						<div 
+							class="col-md-1 msm-ql"
+							ng-click="installation()"
+						>
+							Installation
+						</div>
+						<div 
+							class="col-md-1 msm-ql"
+							ng-click="pricing()"
+						>
+							Pricing
+						</div>
+						<div 
+							class="col-md-1 msm-ql"
+							ng-click="contact()"
+						>
+							Contact
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
