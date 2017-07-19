@@ -1,4 +1,4 @@
-<div ng-controller="MessageController" id="tt-messenger" ng-cloak>
+<div ng-controller="MessageController" id="msm-messenger" ng-cloak>
   <alert type="{{alertType}}" ng-show="userMessage" close="close()">
     <strong ng-show="title">{{title}}&nbsp;</strong>
     {{userMessage}}
@@ -7,10 +7,68 @@
 
 <div 
 	ng-cloak 
-	id="tt-main-container" 
+	id="msm-main-container" 
 >
+	<div id="msm-header">
+		<div id="msm-inout">
+			<div 
+				class="inoutSelected"
+				ng-click="signUp()"
+			>
+				CREATE ACCOUNT
+			</div>
+			<div 
+				class="inoutLink"
+				ng-click="support()"
+			>
+				SUPPORT
+			</div>
+			<div 
+				class="inoutSelected"
+				ng-click="logIn()"
+			>
+				LOGIN
+			</div>
+		</div>
+		<div id="msm-quicklinks">
+			<div 
+				class="headLogo"
+			>
+			</div>
+			<div 
+				class="msm-quicklink"
+				ng-click="home()"
+			>
+				Home
+			</div>
+			<div 
+				class="msm-quicklink"
+				ng-click="products()"
+			>
+				Products
+			</div>
+			<div 
+				class="msm-quicklink"
+				ng-click="installation()"
+			>
+				Installation
+			</div>
+			<div 
+				class="msm-quicklink"
+				ng-click="pricing()"
+			>
+				Pricing
+			</div>
+			<div 
+				class="msm-quicklink"
+				ng-click="contact()"
+			>
+				Contact
+			</div>
+		</div>
+	</div>
 	<div 
-		id="tt-main" 
+		id="msm-main" 
 		ng-view
 	>
 	</div>
