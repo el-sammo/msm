@@ -384,15 +384,15 @@ td {
 }
 
 .footerLink {
-	margin-right: 10px;
+	top: 4px;
 	color: #FFF;
 	font-size: 14px;
-	text-align: left;
 	line-height: 20pt;
 	font-weight: 500;
 	font-style: normal;
 	text-decoration: none!important;
 	cursor: pointer;
+	position: relative;
 }
 
 .footerLinkSmaller {
@@ -2039,6 +2039,12 @@ td {
 	background-color: #004856;
 }
 
+#msm-footer {
+	height: 93px;
+	width: 100%;
+	background-color: #004856;
+}
+
 #msm-inout {
 	height: 43px;
 	width: 100%;
@@ -2108,6 +2114,14 @@ td {
 
 .bumpRight {
 	left: 15px;
+	position: relative;
+}
+
+.armstrongHeader {
+	top: 34px;
+	font-size: 24px;
+	font-family: Raleway, sans-serif;
+	color: #000000;
 	position: relative;
 }
 
